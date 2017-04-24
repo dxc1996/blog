@@ -33,8 +33,8 @@ return [
 
     // Article Page
     'article' => [
-        'title'       => 'Nothing is impossible.',
-        'description' => 'https://pigjian.com',
+        'title'       => 'Blog',
+        'description' => '',
         'number'      => 15,
         'sort'        => 'desc',
         'sortColumn'  => 'published_at',
