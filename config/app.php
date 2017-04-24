@@ -79,6 +79,7 @@ return [
 
     'locale' => env('LOCALE') ?: 'zh_cn',
 
+
     /*
     |--------------------------------------------------------------------------
     | Application Fallback Locale
