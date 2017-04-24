@@ -46,7 +46,7 @@ Common Plugins
     "fzaninotto/faker": "~1.4",
     "krlove/eloquent-model-generator": "dev-bugfix",
     "mockery/mockery": "0.9.*",
-    "mpociot/laravel-apidoc-generator": "*",
+    "mpociot/laravel-apidoc-generator":https://pigjian.com "*",
     "mpociot/laravel-test-factory-helper": "*",
     "phpunit/phpunit": "~5.7"
 },
