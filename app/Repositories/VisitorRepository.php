@@ -4,6 +4,7 @@ namespace App\Repositories;
 
 use App\Services\IP;
 use App\Visitor;
+use Carbon\Carbon;
 
 class VisitorRepository
 {
@@ -39,7 +40,8 @@ class VisitorRepository
     public function log($article_id)
     {
         $ip = $this->ip->get();
-
+        $date = Carbon::now();
+        dd($date);
         if ($this->hasArticleIp($article_id, $ip)) {
 
             $this->model->where('article_id', $article_id)
