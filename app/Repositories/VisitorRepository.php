@@ -40,8 +40,6 @@ class VisitorRepository
     public function log($article_id)
     {
         $ip = $this->ip->get();
-        $date = Carbon::now();
-        dd($date);
         if ($this->hasArticleIp($article_id, $ip)) {
 
             $this->model->where('article_id', $article_id)
