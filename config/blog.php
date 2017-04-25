@@ -51,10 +51,10 @@ return [
     'footer' => [
         'github' => [
             'open' => true,
-            'url'  => '',
+            'url'  => 'https://github.com/dxc1996',
         ],
         'twitter' => [
-            'open' => true,
+            'open' => false,
             'url'  => ''
         ],
         'meta' => '',
