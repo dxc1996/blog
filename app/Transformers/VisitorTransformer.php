@@ -15,7 +15,7 @@ class VisitorTransformer extends TransformerAbstract
             'ip'            => $visitor->ip,
             'country'       => $visitor->country,
             'clicks'        => $visitor->clicks,
-            'created_at'    => $visitor->created_at->toDateTimeString(),
+//            'created_at'    => $visitor->created_at->toDateTimeString(),
         ];
     }
 }
