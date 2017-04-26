@@ -13,8 +13,8 @@ return [
 
     // Meta
     'meta' => [
-        'keywords' => 'Blog',
-        'description' => 'Blog'
+        'keywords' => 'HalfWays',
+        'description' => 'HalfWays'
     ],
 
     // Social Share
@@ -33,7 +33,7 @@ return [
 
     // Article Page
     'article' => [
-        'title'       => 'Blog',
+        'title'       => 'HalfWays',
         'description' => '',
         'number'      => 15,
         'sort'        => 'desc',
